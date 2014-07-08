@@ -1,0 +1,43 @@
+body {
+	background-color: grey;
+}
+
+.area {
+	width: 500px;
+	height: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid black;
+	position: relative;
+	background-color: white;
+}
+
+.circle {
+	height: 50px;
+	width: 50px;
+	border-radius: 100px;
+	background-color: blue;
+	position:absolute;
+}
+
+.center {
+	text-align: center;
+}
+
+.game-end {
+	background-color: rgba(0,0,0,0.9);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	bottom:0;
+	z-index: 10;
+	display: none;
+}
+
+.game-end-text {
+	color: white;
+	text-align: center;
+	top: 200px;
+}
